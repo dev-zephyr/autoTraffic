@@ -21,7 +21,7 @@ public class Application {
 
         while(true) {
 
-            int num = (int) Math.random()*2;
+            double num = Math.random()*2;
             boolean flag = true;
 
             if(num > 1) {
