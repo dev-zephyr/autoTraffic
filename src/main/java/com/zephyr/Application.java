@@ -30,6 +30,7 @@ public class Application {
 
             if(flag) {
                 callApi(ec2Url);
+                callApi(cfUrl);
             }
 
             Thread.sleep(60 * 1000);
